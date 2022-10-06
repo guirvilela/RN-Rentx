@@ -17,42 +17,89 @@ O projeto **Rentx** é um aplicativo mobile na qual tem o intuito de fazer agend
 
 </div>
 
-- [**Link do vídeo completo sobre o projeto**](https://i.imgur.com/OFxMvyx.gifv)
+- [**Link do vídeo completo sobre o projeto**](https://i.imgur.com/OFxMvyx.gif)
 
 ---
 
 ## :information_source: Sobre
 
-O **Stream-Login** é o desafio principal do Capítulo 2 do bootcamp **Ignite da trilha com React-Native**. Nele, praticamos a lógica de programação com TypeScript para criação das funcionalidades desse aplicativo assim como toda estrutura para as requisições das funcionalidades desse aplicativo que utiliza o Expo-auth-session para fazer a autenticação na plataforma da Twitch, e pegar os streamer assistido do usuário.
+O **Rentx** é o desafio principal do Capítulo 3 do bootcamp **Ignite da trilha com React-Native**. Nele, praticamos a lógica de programação com TypeScript para criação das funcionalidades desse aplicativo assim como toda estrutura para as requisições das funcionalidades desse aplicativo que utiliza o Axios e JsonServer para trazer todos carros disponíveis e fazer todo o processo de um agendamento do aluguel de um carro. 
 
-Além disso, revisamos estruturas com Try-Catch, ou seja, tratamos possíveis erros que podem ocorrer durante a execução de uma requisição, uso de métodos como include dentre outros.
+Capítulo na qual o foco é na criação da aplicação como um todo, e levar nossos conhecimentos sobre o desenvolvimento de interfaces para o próximo nível conhecendo e aplicando na prática ferramentas e técnicas que estarão presentes nas aplicações no futuro aplicando boas práticas de UX e Animações. 
+
+
+Além disso, revisamos focamos na construção de uma aplicação utilizando os seguintes conceitos:
+
+- Expo;
+- Expo Vector Icons;
+- Typescript;
+- Componentes reutilizaveis;
+- Axios;
+- JsonServer;
+- Styled components;
+- Design Patterns
+- React Native Calendars;
+- FlatList;
+- Object Literal;
+- React Native Navigation
+- React Native Reanimated;
+- Lottie;
+
+*Diferencial*:
+- Redux;
+ 
+Foi utilizado o Redux, para salvar as principais informações para o aluguel de um carro específico, e para alterar o StatusBar, a partir das telas, entre dark-content e light-content.
+
+---
 
 - **Página Inicial**:
 
 <div align="center" >
-  <img src="https://i.imgur.com/iJA1gFq.png" width="250">____<img src="https://i.imgur.com/HGApUsx.png" width="250">
+  <img src="https://i.imgur.com/NqjdLj2.png" width="250">____<img src="https://i.imgur.com/F6FgR4v.gif" width="220">____<img src="https://i.imgur.com/Nf9PkWP.png" width="250">
 </div>
 
 ---
 
 ## :interrobang: Motivo
 
-Esse desafio tem por objetivo por em praticar os conceitos básicos de React Native no desenvolvimento mobile no 2º capítulo do curso **Ignite** de **React Native** como o uso do Expo-Auth-Session, e os Hooks de autenticação.
+Esse desafio tem por objetivo por em praticar os conceitos mais avançados de React Native no desenvolvimento mobile no 3º capítulo do curso **Ignite** de **React Native** como o uso do React Native Reanimated, e React Native Calendars.
 
-Assim, nesse projeto criamos:
+Assim, nesse projeto é possível:
 
-1. Fazer a autenticação com a plataforma de Streming Twtich.
-2. Manipular possíveis erros com TryCatch
-3. Centralizar autenticação através de Hooks
-4. Navegação entre telas.
-5. Fazer o Logout na aplicação.
+1. Verificar quantos carros estão disponíveis para o aluguel;
+2. Ver detalhadamente as especificações do carro;
+3. Navegar entre as fotos do carro a ser alugado;
+4. Escolher uma data de Início e Fim do aluguel;
+5. Validar se o carro já foi alugado naquele período, não sendo possível selecionar as datas;
+6. Verificar todas as informações de preço sobre as diárias com o carro.
+7. Alugar um carro!
+8. Verificar todos os agendamentos feitos e o período selecionado.
 
-- **Autenticação**:
+
+- **Processo do Aluguel de um carro**:
 
 <div align="center" >
-  <img src="https://i.imgur.com/XvwIOt0.png" width="220">______
-  <img src="https://i.imgur.com/IbtIT5C.png" width=220>______
-  <img src="https://i.imgur.com/HGApUsx.png" width=250>
+  <img src="https://i.imgur.com/KzrybOr.png" width="220">______
+  <img src="https://i.imgur.com/otQM9j3.gif" width=220>______
+  <img src="https://i.imgur.com/gmfo8wO.png" width=250>
+</div>
+
+---
+
+- **Lista de Agendamentos**:
+
+<div align="center" >
+  <img src="https://i.imgur.com/aVyIEbu.png" width="250">______
+  <img src="https://i.imgur.com/8OBubcb.gif" width=250>
+</div>
+
+---
+
+
+- **Validação no calendário**:
+
+<div align="center" >
+  <img src="https://i.imgur.com/XXKNoFT.gif" width="250">
 </div>
 
 
@@ -79,8 +126,14 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - [Android Studio](https://developer.android.com/studio)
 - [Expo](https://expo.dev/)
-- [Expo-Auth-Session](https://docs.expo.dev/versions/latest/sdk/auth-session)
-- [Twitch Developer](https://dev.twitch.tv)
+- [Expo-Vector-Icons](https://docs.expo.dev/guides/icons/)
+- [Json Server](https://github.com/typicode/json-server)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [React-Native-Calendars](https://github.com/wix/react-native-calendars)
+- [FlatList](https://reactnative.dev/docs/flatlist)
+- [Object Literal](https://blog.rocketseat.com.br/substituindo-a-instrucao-switch-por-object-literal/)
+- [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
+- [Lottie Files](https://lottiefiles.com/)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [NodeJS](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
@@ -89,6 +142,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [Styled Components](https://www.styled-components.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Yarn](https://classic.yarnpkg.com/blog/2017/05/12/introducing-yarn/)
+
 
 ---
 
