@@ -33,7 +33,7 @@ Além disso, revisamos focamos na construção de uma aplicação utilizando os 
 - Expo;
 - Expo Vector Icons;
 - Typescript;
-- Componentes reutilizaveis;
+- Componentes reutilizáveis;
 - Axios;
 - JsonServer;
 - Styled components;
